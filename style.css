@@ -1,0 +1,12 @@
+/* Navbar */
+
+.navbar a {
+	color: black;
+}
+
+.navbarStyling {
+	background-color: #eff2f4;
+	font-family: "Raleway", sans-serif;
+}
+
+.navbar-toggler
