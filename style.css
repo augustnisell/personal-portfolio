@@ -1,12 +1,53 @@
 /* Navbar */
 
-.navbar a {
-	color: black;
-}
-
-.navbarStyling {
-	background-color: #eff2f4;
+body {
 	font-family: "Raleway", sans-serif;
 }
 
-.navbar-toggler
+.navbar a {
+	color: ;
+}
+
+.navbar-styling {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: #eff2f4;
+	font-family: "Raleway", sans-serif;
+	border-bottom: 1px solid #999;
+	min-height: 50px;
+}
+
+/* About us */
+
+#about-image {
+	background-image: url('./images/headline_image.jpg');
+	height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  margin-top: 50px;
+}
+
+#about {
+	position: relative;
+	bottom: 250px;
+}
+
+#about-box {
+	color: white;
+	position: relative;
+	bottom: 150px;
+	left: 20px;
+	max-width: 350px;
+}
+
+#about-box h1 {
+	font-size: 24px;
+}
+
+#about-box p {
+	font-size: 18px;
+}
