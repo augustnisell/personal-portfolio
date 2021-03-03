@@ -4,10 +4,6 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
-.navbar a {
-	color: ;
-}
-
 .navbar-styling {
 	position: fixed;
 	top: 0;
@@ -29,17 +25,18 @@ body {
   background-repeat: no-repeat;
   opacity: 0.75;
   margin-top: 50px;
+  border-bottom: 1px solid #999;
 }
 
 #about {
-	position: relative;
-	bottom: 250px;
+	position: absolute;
+	bottom: 230px;
 }
 
 #about-box {
 	color: white;
-	position: relative;
-	bottom: 150px;
+	position: absolute;
+	bottom: 0px;
 	left: 20px;
 	max-width: 350px;
 }
@@ -51,12 +48,22 @@ body {
 /* Portfolio */
 
 #portfolio-box {
-	position: relative;
-	top: -160px;
 	background-color: #eff2f4;
 }
 
 #portfolio {
-	position: relative;
-	bottom: 50px;
+	position: absolute;
+	bottom: 40px;
+}
+
+/* Footer */
+
+.footer-box {
+	text-align: center;
+	background-color: #eff2f4;
+	border-top: 1px solid #999;
+}
+
+.footer-box p {
+	font-size: 12px;
 }
